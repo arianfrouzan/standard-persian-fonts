@@ -201,7 +201,7 @@
 <style>
     @import "css/bootstrap.min.css";
     @import "css/bootstrap-rtl.min.css";
-    @import "./css/font-face.scss";
+    @import "css/font-face.scss";
 
     html {
         font-size: 16px;
