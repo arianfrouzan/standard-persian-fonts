@@ -1,13 +1,6 @@
 <template>
     <div id="app">
         <div class="container" v-cloak>
-            <div class="well well-sm">
-                <div class="pull-left">
-                    <a class="github-button" href="https://github.com/sohrabtaee/standard-persian-fonts" data-size="large" aria-label="Star sohrabtaee/standard-persian-fonts on GitHub">Star on Github</a>
-                </div>
-                <p>                    در صورتی که فونت فارسی استانداری می‌شناسید که در این لیست وجود ندارد، فونت مورد نظر را به ایمیل من بفرستید.</p>
-                <a href="mailto:&#115;&#111;&#104;&#114;&#097;&#098;&#046;&#116;&#097;&#101;&#101;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">&#115;&#111;&#104;&#114;&#097;&#098;&#046;&#116;&#097;&#101;&#101;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</a>
-            </div>
             <div class="row">
                 <div class="col-sm-7 col-md-8 col-lg-9">
                     <div class="panel panel-default" v-for="font in filteredFonts" :key="font.nameEn"
@@ -68,6 +61,15 @@
                                            @click="filter" v-model="filters.weights"> {{weight}}
                                 </label>
                             </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-info">
+                        <div class="panel-heading">
+                            <a class="github-button" href="https://github.com/sohrabtaee/standard-persian-fonts" data-size="large" aria-label="Star sohrabtaee/standard-persian-fonts on GitHub">Star on Github</a>
+                        </div>
+                        <div class="panel-body">
+                            <p>                    در صورتی که فونت فارسی استانداری می‌شناسید که در این لیست وجود ندارد، فونت مورد نظر را به ایمیل زیر بفرستید.</p>
+                            <a href="mailto:&#115;&#111;&#104;&#114;&#097;&#098;&#046;&#116;&#097;&#101;&#101;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">&#115;&#111;&#104;&#114;&#097;&#098;&#046;&#116;&#097;&#101;&#101;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</a>
                         </div>
                     </div>
                 </div>
@@ -151,6 +153,20 @@
 
     .panel {
         margin-bottom: 2em;
+    }
+
+    .panel-info {
+        text-align: center;
+        font-size: 85%;
+    }
+
+    .panel-info p {
+        margin: 0 0 0.5em;
+        color: grey;
+    }
+
+    .panel-info .panel-heading {
+        font-size: 0;
     }
 
     .panel-title {
