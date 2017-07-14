@@ -2,9 +2,17 @@
 .bbc-nassim * {
     font-family: 'BBC Nassim', serif;
 }
+@import "../fonts/behdad/_index.scss";
+.behdad * {
+    font-family: 'Behdad', sans-serif;
+}
 @import "../fonts/droid-naskh/_index.scss";
 .droid-naskh * {
     font-family: 'Droid Naskh', serif;
+}
+@import "../fonts/farbod/_index.scss";
+.farbod * {
+    font-family: 'Farbod', serif;
 }
 @import "../fonts/gandom/_index.scss";
 .gandom * {
@@ -26,6 +34,18 @@
 .milad-azad * {
     font-family: 'Milad Azad', serif;
 }
+@import "../fonts/nazanin/_index.scss";
+.nazanin * {
+    font-family: 'Nazanin', serif;
+}
+@import "../fonts/nika/_index.scss";
+.nika * {
+    font-family: 'Nika', serif;
+}
+@import "../fonts/noon/_index.scss";
+.noon * {
+    font-family: 'Noon', serif;
+}
 @import "../fonts/parastoo/_index.scss";
 .parastoo * {
     font-family: 'Parastoo', serif;
@@ -42,6 +62,10 @@
 .shabnam * {
     font-family: 'Shabnam', sans-serif;
 }
+@import "../fonts/shahab/_index.scss";
+.shahab * {
+    font-family: 'Shahab', sans-serif;
+}
 @import "../fonts/vazir/_index.scss";
 .vazir * {
     font-family: 'Vazir', sans-serif;
@@ -53,4 +77,8 @@
 @import "../fonts/xero-sans/_index.scss";
 .xero-sans * {
     font-family: 'Xero Sans', sans-serif;
+}
+@import "../fonts/yekan/_index.scss";
+.yekan * {
+    font-family: 'Yekan', sans-serif;
 }
